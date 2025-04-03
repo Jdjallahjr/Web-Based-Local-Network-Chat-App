@@ -365,4 +365,4 @@ if __name__ == '__main__':
     discovery_thread = threading.Thread(target=discover_devices, daemon=True)
     discovery_thread.start()
     
-    socketio.run(app, host='0.0.0.0', port=5000, debug=True)
+    socketio.run(app, host='0.0.0.0', port=10000, debug=True)
